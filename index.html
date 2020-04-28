@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TCSG</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>	
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  	.fade-in {
+  	   animation: fadeIn ease 5s;
+  	   -webkit-animation: fadeIn ease 5s;
+  	   -moz-animation: fadeIn ease 5s;
+  	   -o-animation: fadeIn ease 5s;
+  	   -ms-animation: fadeIn ease 5s;
+  	 }
+  	 
+  	 
+  	 @keyframes fadeIn{
+  	   0% {
+  	     opacity:0;
+  	   }
+  	   100% {
+  	     opacity:1;
+  	   }
+  	 }
+  	 
+  	 @-moz-keyframes fadeIn {
+  	   0% {
+  	     opacity:0;
+  	   }
+  	   100% {
+  	     opacity:1;
+  	   }
+  	 }
+  	 
+  	 @-webkit-keyframes fadeIn {
+  	   0% {
+  	     opacity:0;
+  	   }
+  	   100% {
+  	     opacity:1;
+  	   }
+  	 }
+  	 
+  	 @-o-keyframes fadeIn {
+  	   0% {
+  	     opacity:0;
+  	   }
+  	   100% {
+  	     opacity:1;
+  	   }
+  	 }
+  	 
+  	 @-ms-keyframes fadeIn {
+  	   0% {
+  	     opacity:0;
+  	   }
+  	   100% {
+  	     opacity:1;
+  	   }
+  	 }
+    a:link,a:hover,a:visited,a:active{
+    	color:#ffffff;
+    }
+    .button {
+      padding: 15px 25px;
+      font-size: 24px;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+      color: #fff;
+      background-color: #3b3b4f;
+      border: none;
+      
+      box-shadow: 0 9px #999;
+    }
+    
+    .button:hover {background-color: #2a2a40}
+    
+    .button:active {
+      background-color: #0a0a23;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+  </style> 
+</head>
+<body style="background:#1b1b32">
+
+<div class="jumbotron" style="background:#0a0a23;">
+  <div class="container text-center">
+    <h1 style="color:#f5f6f7;font-family:'Roboto Mono';" class="fade-in"><b>The Classic Snake Game</b></h1>
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">    
+  <h4 style="color:#dfdfe2;font-family:Roboto Mono;background:#2a2a40">Self-Playing model on <em>Easygoing</em> has been developed! Check it <a href="sp.html" target="_blank">here</a>.</h4><br>
+  <marquee><h3 style="color:#d0d0d5;font-family:Roboto Mono" class="fade-in"><b>Instructions:</b> Use arrow keys to move the snake, press
+  'speed' button/s to control the speed. Press 'R' to replay.</h3></marquee>
+  <hr style="color:white">
+  <div class="row">
+    <div class="col-sm-6">
+      <h4 style="color:#dfdfe2;font-family:Roboto Mono" class="fade-in"><em>Easygoing:</em> No maze, save the snake only from itself and the walls.</h4>
+	  <img src="eg.png">
+      <br><br><a href="eg.html" target="_blank"><button class="button"><span style="color:#d0d0d5;font-family:Roboto Mono">Play</span></button></a>
+    </div>
+    <div class="col-sm-6"> 
+       <h4 style="color:#dfdfe2;font-family:Roboto Mono" class="fade-in"><em><b>**New!**</b> Grey-Matter:</em> Save the snake from a <b>randomly generated</b> grey maze as well.</h4>
+		<img src="gm.png">
+       <br><br><a href="gm.html" target="_blank"><button class="button"><span style="color:#d0d0d5;font-family:Roboto Mono">Play</span></button></a>
+    </div>
+  </div>
+</div><br><br><br><br>
+</body>
+</html>

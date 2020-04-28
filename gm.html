@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grey Matter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>	
+	<style>
+	 a:link,a:hover,a:visited,a:active{
+    	color:#ffffff;
+    }
+    .button {
+      padding: 15px 25px;
+      font-size: 24px;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+      color: #fff;
+      background-color: #3b3b4f;
+      border: none;
+      
+      box-shadow: 0 9px #999;
+    }
+    
+    .button:hover {background-color: #2a2a40}
+    
+    .button:active {
+      background-color: #0a0a23;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+  </style>
+  </head>
+  
+  <body>
+    <script src="snake-gm.js"></script>
+    <button class="button" onclick="DELAY+=1"><span style="color:#d0d0d5;font-family:Roboto Mono">Speed--</span></button>
+     <button class="button" onclick="DELAY-=1"><span style="color:#d0d0d5;font-family:Roboto Mono">Speed++</span></button>
+  </body>
+</html>
